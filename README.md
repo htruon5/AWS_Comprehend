@@ -23,3 +23,12 @@ When recognizing titles of creative works, the performance of Amazon Comprehend 
 
 
 ## Resources and Acknowledgements
+Malmasi, Shervin, et al. 2022. Semeval-2022 Task 11: Multilingual Complex Named Entity Recognition (Multiconer). Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022).
+
+Tao Meng, Anjie Fang, Oleg Rokhlenko, and Shervin Malmasi. 2021. GEMNET: Effective gated gazetteer representations for recognizing complex entities in low-context input. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 1499–1512.
+
+Sandeep Ashwini and Jinho D Choi. 2014. Targetable named entity recognition in social media. arXiv eprints, pages arXiv–1408.
+
+Shervin Malmasi, Anjie Fang, Besnik Fetahu, Sudipta Kar and Oleg Rokhlenko. 2022. MultiCoNER: a Large-scale Multilingual dataset for Complex Named Entity Recognition. Jackson Luken, Nanjiang Jiang, and Marie-Catherine de Marneffe. 2018. QED: A fact verification system for the FEVER shared task. In Proceedings of the First Workshop on Fact Extraction and VERification (FEVER), pages 156–160, Brussels, Belgium. Association for Computational Linguistics.
+
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: pre-training of deep bidirectional transformers for language understanding. In NAACL-HLT (1). Association for Computational Linguistics.
