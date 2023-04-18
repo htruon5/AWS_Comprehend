@@ -9,3 +9,5 @@
 ## Data Analysis and Visualization
 
 ## Data Architecture
+
+## Resources and Acknowledgements
