@@ -11,7 +11,7 @@ Detecting creative works titles using natural language processing (NLP) can be a
 3. Common words or phrases contained in titles that may not be unique to the creative work in question can make it difficult for the algorithm to differentiate them. (Example: Of Mice and Men)
 4. Context plays a significant role in determining whether a given phrase refers to a creative work title or not, and NLP algorithms may struggle to accurately interpret contextual cues. (Example: 1984)
 ## Hidden variables
-When recognizing titles of creative works, the performance of Amazon Comprehend is significantly influenced by capitalization, conventionality of the title’s linguistics constitute, and titles spelling. We will create different datasets catered to these features of texts and evaluate Amazon Comprehend on these inputs.
+When recognizing titles of creative works, the performance of Amazon Comprehend is significantly influenced by capitalization, conventionality of the title’s linguistics constitute, and titles spelling. We will create different datasets catered to these features of texts and evaluate Amazon Comprehend on these inputs..
 
 ## Data Collection
 
