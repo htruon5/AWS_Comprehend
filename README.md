@@ -48,7 +48,7 @@ We use the English Dataset from [MultiCoNER Datasets](https://registry.opendata.
 The researchers evaluated the NER label quality of the dataset. They generated a small random sample of 400 sentences, and assessed the accuracy of NER gold labels, which was measured at 94% accuracy for the english dataset (Malmasi et al., 2022).
 
 ### Data Preprocessing
-
+There are two parts in dataset preprocessing: Data Extraction and New Categories Creation. In Data Extraction, we select samples related to titles of creative works and reformat the data. Our selected data has 16778 sentences. In New Categories Creation, we manipulate and transform the titles in dataset to new categories: Capitalized vs. Lowercase, Conventional vs. Unconventional, Correct vs. Misspelled and Popular vs. Unpopular.
 
 
 ## Data Analysis and Visualization
