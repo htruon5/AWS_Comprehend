@@ -47,7 +47,8 @@ We use the English Dataset from [MultiCoNER Datasets](https://registry.opendata.
 ### Data Quality
 The researchers evaluated the NER label quality of the dataset. They generated a small random sample of 400 sentences, and assessed the accuracy of NER gold labels, which was measured at 94% accuracy for the english dataset (Malmasi et al., 2022).
 
-### Data Collection
+### Data Preprocessing
+
 
 
 ## Data Analysis and Visualization
@@ -55,7 +56,17 @@ The researchers evaluated the NER label quality of the dataset. They generated a
 
 ## Data Architecture
 
+## Implications
+For regular Amazon Comprehend users: If you want to have results with better accuracy, you can try to clean the data, making sure the titles are capitalized and correctly spelled. Also, you need to be catious on the titles that are linguistically complex and not that famous. They are more likely to be neglected by Amazon Comprehend.
 
+For developers using or developers of Amazon Comprehend: The model's robustness and accuracy can be further improved. If Amazon Comprehend is trained on more noisy and colloquial data, it can have better ability to detect lowercased and misspelled titles. If Amazon Comprehend is trained on newer dataset that contains labels for creative works specifically, it will have better ability to extract creative titles with unconventional lingustics constitute. The developers can also find method in the open-world setting domain to help the model recognize unpopular/unseen/new works.
+
+## Reproducibility
+Look at our architecture first to have a intuitive and comprehensive understanding of the project.
+Our data extraction part is relatively complicated because the inital data format is complicated (designed for NER task in NLP). The goal is actually quite simple, we want sentences to be stored in list of tuple like this: [("sentence", has_title, "title), ("sentence", has_title, "title)]. You can create list of tuples from your own dataset in your way.
+For creating new categories and analysis, you can just use our code if you data format is [("sentence", has_title, "title), ("sentence", has_title, "title)]. Remember to get your own google API Key. Note that Google Search API is not completely free, and you will be billed according to the API's pricing structure!
+You can also investigate your own hypothesis following our architecture. Possible topics include New Works vs. Old Works and English Works vs. Non-English Works.
+If you find any bugs in our project or find interesting results in your investigation, feel free to contact us.
 ## Resources and Acknowledgements
 Malmasi, Shervin, et al. 2022. Semeval-2022 Task 11: Multilingual Complex Named Entity Recognition (Multiconer). Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022).
 
