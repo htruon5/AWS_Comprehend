@@ -5,8 +5,11 @@
 
 As noted by AWS in their [documentation](https://docs.aws.amazon.com/comprehend/index.html), "the service can identify mentions of movies, books, music albums, and television shows in the text, even if the titles are misspelled or abbreviated." In this project, we evaluate Amazon Comprehend's accuracy and usefulness in detecting creative works titles (books, song names, movies titles,etc) given a text input.
 
+![comprehend](https://user-images.githubusercontent.com/96922660/232936445-428f8cb1-26ce-4c67-8e5e-fb5118030294.png)
+
+
 ## What is Named Entity Recognition?
-Named Entity Recognition (NER) is a NLP subtask that involves identifying and classifying named entities in text into predefined categories, such as organizations, locations and titles. Machine learning models are trained on annotated datasets to extract the entities and predict the labels. NER has a wide range of real-world applications, such as information extraction and content recommendation. Check this notebook by Professor Choi from Emory University for more information.
+Named Entity Recognition (NER) is a NLP subtask that involves identifying and classifying named entities in text into predefined categories, such as organizations, locations and titles. Machine learning models are trained on annotated datasets to extract the entities and predict the labels. NER has a wide range of real-world applications, such as information extraction and content recommendation. Check this [notebook](https://github.com/emory-courses/computational-linguistics/blob/master/docs/named_entity_recognition.ipynb) by Professor Choi from Emory University for more information.
 
 ## Why Titles of Creative Works are especially interesting?
 Detecting creative works titles using natural language processing (NLP) can be a challenging task due to several factors. 
@@ -36,7 +39,10 @@ The titles of creative works are linguistically complex, innovative, and emergin
 
 ## Dataset Description
 ### Data Collection
-We use the English Dataset from [MultiCoNER Datasets](https://registry.opendata.aws/multiconer/), a large multilingual dataset for Named Entity Recognition. This dataset is designed to represent contemporary challenges in NER, including low-context scenarios (short and uncased text) and syntactically complex entities like movie titles (Malmasi et al., 2022). It is a 26M token dataset compiled from public resources and contains 36 NE classes. The dataset is the registry of open data on AWS and is managed by Amazon. (add the pie chart here)
+We use the English Dataset from [MultiCoNER Datasets](https://registry.opendata.aws/multiconer/), a large multilingual dataset for Named Entity Recognition. This dataset is designed to represent contemporary challenges in NER, including low-context scenarios (short and uncased text) and syntactically complex entities like movie titles (Malmasi et al., 2022). It is a 26M token dataset compiled from public resources and contains 36 NE classes. The dataset is the registry of open data on AWS and is managed by Amazon.
+
+![Screen Shot 2023-04-18 at 8 24 13 PM](https://user-images.githubusercontent.com/96922660/232935221-f9cbc2f3-6190-4717-83cb-43bc7d0a1c3d.png)
+
 
 ### Data Quality
 The researchers evaluated the NER label quality of the dataset. They generated a small random sample of 400 sentences, and assessed the accuracy of NER gold labels, which was measured at 94% accuracy for the english dataset (Malmasi et al., 2022).
