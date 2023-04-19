@@ -55,6 +55,7 @@ The researchers evaluated the NER label quality of the dataset. They generated a
 
 
 ## Data Architecture
+<img width="949" alt="Screenshot 2023-04-18 at 10 59 50 PM" src="https://user-images.githubusercontent.com/91909405/232955823-57f3220c-3424-47a5-a671-95a0c40303fd.png">
 
 ## Implications
 For regular Amazon Comprehend users: If you want to have results with better accuracy, you can try to clean the data, making sure the titles are capitalized and correctly spelled. Also, you need to be catious on the titles that are linguistically complex and not that famous. They are more likely to be neglected by Amazon Comprehend.
